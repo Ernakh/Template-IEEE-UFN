@@ -1,0 +1,115 @@
+
+\documentclass[10pt, conference, compsocconf]{IEEEtran}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage{graphicx,url}
+\usepackage{placeins}
+
+\usepackage{amsmath}
+%\usepackage{cite}
+\usepackage{xcolor}
+%\Elaborado por Fabrício Tonetto Londero
+\usepackage{listings}
+
+\usepackage[fixlanguage]{babelbib}
+\selectbiblanguage{brazil}
+
+%\usepackage[backend=biber]{biblatex}
+\usepackage[ natbib=true, style=numeric,sorting=none]{biblatex} %ordem de ocorrencia da referencia
+
+\addbibresource{references.bib}
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\begin{document}
+
+\title{Título do trabalho}
+
+\author{\IEEEauthorblockN{Aluno, Orientador}
+\IEEEauthorblockA{Curso de [Nome do Curso]\\
+UFN - Universidade Franciscana\\
+Santa Maria - RS\\
+aluno@ufn.edu.br, 
+orientador@ufn.edu.br}
+}
+
+\maketitle
+
+\begin{abstract}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.
+
+\end{abstract}
+
+
+\textbf{\textit{Palavras-chave} : palavra 1; palavra 2; palavra 3; }
+
+
+\IEEEpeerreviewmaketitle
+
+\section{Introdução}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.\cite{chandler2009manual}.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur \cite{SavinginVideoGames2011}.
+
+\subsection{Justificativa}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.
+
+\subsection{Objetivos}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.
+
+\subsection{Estrutura do trabalho}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.
+
+\section{Seção}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.
+
+\FloatBarrier
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=3.3in]{images/Overwatch.png}
+\caption{Legenda da Figura \cite{FreyaHolmer}.} 
+\label{figuraOverwatch}
+\end{figure}
+
+\FloatBarrier
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.
+
+\section{Seção 2}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.
+
+\subsection{SubSeção}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.
+
+
+\subsubsection{SubSubSeção} Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.
+
+
+\subsection{Trabalhos correlatos}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.
+
+
+\section{Metodologia}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur, commo pode ser visto na Figura \ref{figuraOverwatch}.
+
+\subsection{Pós-produção}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.\footnote{nota de rodapé}.
+
+\section{Conclusão}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae erat velit. Donec nec euismod velit. In ut ipsum lorem. Nulla vitae metus ut nibh mollis sodales in eu nulla. Pellentesque enim metus, interdum eget iaculis vitae, posuere non massa. Pellentesque sit amet libero vitae dolor dapibus porta. Morbi id eros eu diam posuere fermentum. \textit{Phasellus ac orci} vel nisl elementum vulputate. Quisque vitae malesuada neque. Duis posuere mi nec purus tincidunt sollicitudin. Ut cursus luctus condimentum. Aliquam ut tortor at nulla mollis efficitur.
+
+\printbibliography
+
+\end{document}
+
+
